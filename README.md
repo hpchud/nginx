@@ -25,4 +25,4 @@ There are two options to provide the data for `/var/www/html`. You can either mo
 
 On startup, this repository will be cloned using `CONFIG_USER` and `CONFIG_PASS` as the credentials. Whilst this image can be public, you don't want the configuration to be.
 
-The files in `www` folder will be copied to `/var/www/html`.
+The files in `www` folder will be copied to `/usr/share/nginx/html`.
