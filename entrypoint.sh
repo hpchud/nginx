@@ -8,7 +8,7 @@ ulimit -n 8192
 
 set -e
 
-WWW_DIR=/var/www/html
+WWW_DIR=/usr/share/nginx/html
 CONFIG=1
 
 # check for required vars
