@@ -34,6 +34,7 @@ if [[ CONFIG -eq 1 ]]; then
 
     # clone the git repo
     echo "cloning config repository..."
+    rm -rf /root/httpd-config
     git clone https://${CONFIG_USER}:${CONFIG_PASS}@${CONFIG_REPO} /root/httpd-config
 
     # copy files to WWW_DIR
